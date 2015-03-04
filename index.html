@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">落星如雨</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">一个快乐的人</a></li>
+                <li><a href="#about">修身</a></li>
+                <li><a href="#contact">治国</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">更多<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">齐家</a></li>
+                    <li><a href="#">平天下</a></li>
+                    <li><a href="#">游历</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">用户</li>
+                    <li><a href="#">登陆</a></li>
+                    <li><a href="#">退出</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>生命</h1>
+              <p>原来生命从头到尾都是一场浪费，你需要判断的仅仅在于，这次浪费是否是“美好”的。后来，当我每做一件事情的时候，我便问自己，你认为它是美好的吗？如果是，那就去做吧，从这里出发，我们去抵抗命运，享受生活。</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">详情</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>世界</h1>
+              <p>你的好对别人来说就像一颗糖，吃了就没了；你的坏对别人来说就像一个疤痕，留下就永久在。这就是人性。我们只能把握自己内心的纯洁，记住别人给我们的糖而非疤痕。这样的世界才是我们真正想要创造的世界。</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">详情</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>缘分</h1>
+              <p>有些人注定是你生命里的癌症，而有些人只是一个喷嚏而已。这一切，据说都是“因了冥冥中的缘分”。</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">详情</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/1.jpeg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>故乡</h2>
+          <p>正如故乡是用来怀念的，青春是用来追忆的，当你怀揣着它时，它一文不值，只有将它耗尽后再回过头看，一切才有意义，爱过我们的人和伤害过我们的人，都是我们青春存在的意义。</p>
+          <p><a class="btn btn-default" href="#" role="button">详情 &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/2.jpeg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>落寞</h2>
+          <p>我说不出为什么，特别喜欢跟这种冷静平和的人待在一起。热情让我害怕，一是怕让我要回报相同的热情，那是件很辛苦的事情，承不起来，让人虚脱；二是害怕热情总是快速褪去，因为差距而更加落寞。</p>
+          <p><a class="btn btn-default" href="#" role="button">详情 &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/3.jpeg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>在意</h2>
+          <p>我需要你的时候，你不是不在，而是不在意。所以你需要我的时候，我不是不想，而是不想理。</p>
+          <p><a class="btn btn-default" href="#" role="button">详情 &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">美好</h2>
+          <p class="lead">觉得以前美好，是因为那时想着慢慢来还有好长的日子，现在觉着疲惫，是因为已经少了那样的耐心，想要极速赶往未来美好的样子，殊不知，一个不小心的当下，便会造就一个不复从前的未来 。</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/10.jpeg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/20.jpeg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">平凡</h2>
+          <p class="lead">切记不要与自身的平凡为敌，也没有必要把自己变得不像自己。</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">晚安</h2>
+          <p class="lead">你的晚安是一根灯绳，轻轻一拉，“咔嗒”一声，就熄灭了整个城市的灯，然后夜晚才真的到来。</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/30.jpeg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p><a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2015 haifwu 沪ICP备14043302号</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
